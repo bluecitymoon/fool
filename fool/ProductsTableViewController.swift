@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProductsTableViewController: UITableViewController {
+class ProductsTableViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
     var productsLoaded = [Product]()
     
     override func viewDidLoad() {
@@ -21,9 +21,16 @@ class ProductsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         self.productsLoaded = [
-            Product(name: "Iphone", price: "2000", publishDate: "7-9"),
-            Product(name: "Book- <<One night in beijing", price: "10.0", publishDate: "10-17")
+            Product(shortImage: "zoom1", name: "HP NoteBook", price: "5400", location: "Shanghai-SiJing", distance: "2KM", date: "8-9"),
+            Product(shortImage: "zoom1", name: "HP1 NoteBook", price: "5400", location: "Shanghai-Lujiazui", distance: "2KM", date: "8-9"),
+            Product(shortImage: "zoom1", name: "HP2 NoteBook", price: "5400", location: "Shanghai-SiJing", distance: "14KM", date: "10-9"),
+            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9"),
+            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9"),
+            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9")
         ]
+        
+        var productCellNib = UINib(nibName: "CustomTableViewCell", bundle: nil)
+        self.tableView.registerNib(productCellNib, forCellReuseIdentifier: "customCell")
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,18 +46,16 @@ class ProductsTableViewController: UITableViewController {
    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //ask for a reusable cell from the tableview, the tableview will create a new one if it doesn't have any
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("productCell") as UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("customCell") as CustomTableViewCell
+        
+        
         
         var product : Product
         // Check to see whether the normal table or search results table is being displayed and set the Candy object from the appropriate array
         product = productsLoaded[indexPath.row]
         // Configure the cell
-        cell.textLabel!.text = product.name
         
-        cell.imageView?.image = UIImage(named: "first")
-        
-        cell.accessoryType = UITableViewCellAccessoryType.DetailButton
-        
+        cell.loadItem(product)
         return cell
     }
     /*

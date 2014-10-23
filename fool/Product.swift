@@ -9,7 +9,11 @@
 import Foundation
 
 struct Product {
+    let shortImage : String
     let name : String
     let price : String
-    let publishDate : String
+    
+    let location : String
+    let distance : String
+    let date : String
 }

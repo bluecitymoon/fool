@@ -16,6 +16,9 @@
 		192A7ECA19F4D9F000A05359 /* foolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7EC919F4D9F000A05359 /* foolTests.swift */; };
 		192A7ED419F4DAF600A05359 /* FoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7ED319F4DAF600A05359 /* FoolListViewController.swift */; };
 		192A7ED619F4DCD700A05359 /* FoolSearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A7ED519F4DCD700A05359 /* FoolSearchResultTableViewController.swift */; };
+		19508FAE19F8DF540034B509 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19508FAC19F8DF540034B509 /* CustomTableViewCell.swift */; };
+		19508FAF19F8DF540034B509 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19508FAD19F8DF540034B509 /* CustomTableViewCell.xib */; };
+		19508FB519F8E5350034B509 /* zoom1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19508FB419F8E5350034B509 /* zoom1.jpg */; };
 		19AC7BCC19F6599A00A930BF /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC7BCB19F6599A00A930BF /* ProductsTableViewController.swift */; };
 		19AC7BCE19F65A2100A930BF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC7BCD19F65A2100A930BF /* Product.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +47,9 @@
 		192A7EC919F4D9F000A05359 /* foolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foolTests.swift; sourceTree = "<group>"; };
 		192A7ED319F4DAF600A05359 /* FoolListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoolListViewController.swift; sourceTree = "<group>"; };
 		192A7ED519F4DCD700A05359 /* FoolSearchResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoolSearchResultTableViewController.swift; sourceTree = "<group>"; };
+		19508FAC19F8DF540034B509 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		19508FAD19F8DF540034B509 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		19508FB419F8E5350034B509 /* zoom1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zoom1.jpg; path = ../../../../Downloads/zoom1.jpg; sourceTree = "<group>"; };
 		19AC7BCB19F6599A00A930BF /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		19AC7BCD19F65A2100A930BF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,13 +97,16 @@
 				192A7EB319F4D9F000A05359 /* FirstViewController.swift */,
 				192A7EB519F4D9F000A05359 /* SecondViewController.swift */,
 				192A7EB719F4D9F000A05359 /* Main.storyboard */,
+				19508FAD19F8DF540034B509 /* CustomTableViewCell.xib */,
 				192A7EBA19F4D9F000A05359 /* Images.xcassets */,
+				19508FB419F8E5350034B509 /* zoom1.jpg */,
 				192A7EBC19F4D9F000A05359 /* LaunchScreen.xib */,
 				192A7EAF19F4D9F000A05359 /* Supporting Files */,
 				192A7ED319F4DAF600A05359 /* FoolListViewController.swift */,
 				192A7ED519F4DCD700A05359 /* FoolSearchResultTableViewController.swift */,
 				19AC7BCB19F6599A00A930BF /* ProductsTableViewController.swift */,
 				19AC7BCD19F65A2100A930BF /* Product.swift */,
+				19508FAC19F8DF540034B509 /* CustomTableViewCell.swift */,
 			);
 			path = fool;
 			sourceTree = "<group>";
@@ -209,6 +218,8 @@
 			files = (
 				192A7EB919F4D9F000A05359 /* Main.storyboard in Resources */,
 				192A7EBE19F4D9F000A05359 /* LaunchScreen.xib in Resources */,
+				19508FAF19F8DF540034B509 /* CustomTableViewCell.xib in Resources */,
+				19508FB519F8E5350034B509 /* zoom1.jpg in Resources */,
 				192A7EBB19F4D9F000A05359 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +243,7 @@
 				192A7EB619F4D9F000A05359 /* SecondViewController.swift in Sources */,
 				192A7EB219F4D9F000A05359 /* AppDelegate.swift in Sources */,
 				192A7ED419F4DAF600A05359 /* FoolListViewController.swift in Sources */,
+				19508FAE19F8DF540034B509 /* CustomTableViewCell.swift in Sources */,
 				192A7EB419F4D9F000A05359 /* FirstViewController.swift in Sources */,
 				19AC7BCE19F65A2100A930BF /* Product.swift in Sources */,
 			);
