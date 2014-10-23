@@ -23,28 +23,28 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvd-lS-w5N">
-                        <rect key="frame" x="141" y="29" width="42" height="21"/>
+                        <rect key="frame" x="141" y="30" width="104" height="21"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <color key="highlightedColor" red="0.1333333333" green="0.96078431369999995" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.97057462989999999" green="0.67678351150000005" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.94865337171052633" green="0.55232319078947367" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHX-gf-BsU">
-                        <rect key="frame" x="203" y="51" width="42" height="21"/>
+                        <rect key="frame" x="208" y="51" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReH-kO-zNt">
                         <rect key="frame" x="270" y="51" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAy-11-0oD">
-                        <rect key="frame" x="141" y="51" width="42" height="21"/>
+                        <rect key="frame" x="141" y="51" width="65" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
@@ -57,7 +57,7 @@
                 <outlet property="price" destination="hvd-lS-w5N" id="uuE-0T-98G"/>
                 <outlet property="shortImage" destination="bvY-Wx-nvw" id="yFA-Te-m9T"/>
             </connections>
-            <point key="canvasLocation" x="292" y="266"/>
+            <point key="canvasLocation" x="292" y="262"/>
         </tableViewCell>
     </objects>
 </document>

@@ -21,12 +21,12 @@ class ProductsTableViewController: UITableViewController, UITableViewDataSource,
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         self.productsLoaded = [
-            Product(shortImage: "zoom1", name: "HP NoteBook", price: "5400", location: "Shanghai-SiJing", distance: "2KM", date: "8-9"),
-            Product(shortImage: "zoom1", name: "HP1 NoteBook", price: "5400", location: "Shanghai-Lujiazui", distance: "2KM", date: "8-9"),
-            Product(shortImage: "zoom1", name: "HP2 NoteBook", price: "5400", location: "Shanghai-SiJing", distance: "14KM", date: "10-9"),
-            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9"),
-            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9"),
-            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400", location: "Shanghai-PUdong", distance: "2KM", date: "11-9")
+            Product(shortImage: "zoom1", name: "HP NoteBook", price: "5400 元", location: "泗泾－同润", distance: "1公里", date: "8-9"),
+            Product(shortImage: "zoom2", name: "HP1 NoteBook", price: "5400 元", location: "泗泾－同润", distance: "1公里", date: "8-9"),
+            Product(shortImage: "zoom2", name: "HP2 NoteBook", price: "5400 元", location: "泗泾－同润", distance: "200米", date: "10-9"),
+            Product(shortImage: "zoom1", name: "HP3 NoteBook", price: "5400 元", location: "上海火车站", distance: "100米", date: "11-9"),
+            Product(shortImage: "zoom2", name: "HP3 NoteBook", price: "5400 元", location: "正大广场", distance: "10米", date: "11-9"),
+            Product(shortImage: "zoom2", name: "HP3 NoteBook", price: "5400 元", location: "开心路", distance: "200米", date: "11-9")
         ]
         
         var productCellNib = UINib(nibName: "CustomTableViewCell", bundle: nil)
